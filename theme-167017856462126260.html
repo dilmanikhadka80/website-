@@ -1,0 +1,1028 @@
+<!-- doctype html-->
+
+<html> 
+
+ <head> 
+
+ <meta charset="UTF-8"> 
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+ <title>Dilmani </title> 
+   <link rel="icon" type="image/x-icon" href="https://images.assetsdelivery.com/compings_v2/wikagraphic/wikagraphic2010/wikagraphic201023533.jpg" >
+
+  <style>
+
+  @keyframes slider {0%, 15%, 100% {right:0px}35%, 40% {right:336px}70%, 75% {right:672px}105%, 110% {right:1008px}140%, 145% {right:1344px}}
+
+  .wrapper-slide{
+
+  position: relative;
+
+  min-height:286px;
+
+  }
+
+  .list-slide {
+
+  width: auto;
+
+  display: flex;
+
+  position: absolute;
+
+  width: 100%;
+
+  overflow:hidden;
+
+  }
+
+  .wrapper-slide:hover .list-slide{
+
+  overflow-x: scroll;	
+
+  }
+
+  
+
+  
+
+  .thumbnail{
+
+  height:100%;
+
+  width:100%;
+
+  }
+
+  
+
+  .slide-item {
+
+  margin-right: 8px;
+
+  position: relative;
+
+  animation: slider 10s infinite;
+
+  }
+
+  .list-slide:hover .slide-item{
+
+  animation-play-state: paused;
+
+  -webkit-animation-play-state: paused;
+
+  /*animation: 0;
+
+  -webkit-animation: 0;*/
+
+  }
+
+  .vid.poster {
+
+  background-size: cover;
+
+  height: 276px;
+
+  width: 328px;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  margin-bottom: 0px;
+
+  margin-right: 0px;
+
+  margin-top: 0px;
+
+  }
+
+  
+
+  
+
+  
+
+
+
+  /* NAVBAR STYLING STARTS */
+
+  .navbar {
+
+  display: flex;
+
+ z-index:5000;
+
+ right:0;
+
+ left:0;
+
+ top:0%;
+
+ height:30px;
+
+ position:absolute;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 20px;
+
+  background-color:green;
+
+  color: white;
+
+  }
+
+  }
+
+  /* NAVBAR MENU */
+
+  .menu {
+
+  
+
+  display: flex;
+
+  gap: 1em;
+
+  font-size: 18px;
+
+  }
+
+  .menu li:hover {
+
+  background-color: green;
+
+  border-radius: 5px;
+
+  transition: 0.9s ease;
+
+  }
+
+  .menu li {
+
+  padding: 5px 14px;
+
+  background:green;
+
+  }
+
+  
+
+  /*RESPONSIVE NAVBAR MENU STARTS*/
+
+  /* CHECKBOX HACK */
+
+  input[type=checkbox]{
+
+  display: none;
+
+  } 
+
+  /*HAMBURGER MENU*/
+
+  .hamburger {
+
+  display: none;
+
+  font-size: 24px;
+
+  user-select: none;
+
+  color:black;
+
+  }
+
+  /* APPLYING MEDIA QUERIES */
+
+  @media (max-width: 768px) {
+
+  .menu { 
+
+  display:none;
+
+  position: absolute;
+
+  background:green;
+
+  right: 0;
+
+  left: 0;
+
+  text-align: center;
+
+  padding: 16px 0;
+
+  
+
+  }
+
+  .menu li:hover {
+
+  display: inline-block;
+
+  background-color:#4c9e9e;
+
+  transition: 0.1s ease;
+
+  }
+
+  .menu li + li {
+
+  margin-top: 12px;
+
+  }
+
+  input[type=checkbox]:checked ~ .menu{
+
+  display: block;
+
+  }
+
+  .hamburger {
+
+  display: block;
+
+  }
+
+  
+
+  
+
+  
+
+  
+
+  a{
+
+  color:lightcyan;
+
+  text-decoration:none;
+
+  }
+
+  .header {
+
+  z-index: 200;
+
+  top:100%;
+
+  height:32px;
+
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  width: 100%;
+
+  background:red;}
+    
+
+  .header-logo
+
+  {
+
+  font-size:50px;
+
+  padding:60px;}
+
+  
+
+  .see-more-button{
+
+  width:auto;
+
+  padding:5px;
+
+  height:40px;
+
+  background:#1C54C4;
+
+  color:white;
+
+  font-size:20px;
+
+  opacity:0.9
+
+  }
+
+  .journey-header{
+
+  color:white;
+
+  }
+
+
+ 
+
+
+  }
+
+.pp
+
+{
+
+border:dashed blue 5px;
+
+border-radius:10000px;
+
+width:200px;
+
+height:200px;
+
+text-align:center}
+    
+
+.grid-container
+
+{ display:grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+ grid-template-rows: repeat(0, 1fr);
+
+}
+
+.img-item
+
+{
+
+background-color:#1E96FF;
+
+border:dashed 3px;    
+
+ margin:2px;
+
+ width:80%; 
+
+
+}
+
+.body{
+
+text-align:center;
+
+background:linear-gradient(lightcyan,lightcyan);
+
+}
+
+.journey-item{
+
+border-radius: 0px 60px 0 60px;
+
+padding:20px;
+
+height:auto;
+
+width:80%;
+
+background:#1E1C34;
+
+}
+
+.section-1{
+
+ margin:0px;
+
+ text-align:center;
+
+ background:linear-gradient(lightcyan,lightcyan);
+
+ padding:0px;
+
+}
+
+.goto-button{
+
+width:40%;
+
+height:50px;
+
+background:#1C54C4;
+
+color:white;
+
+border-radius:50px;
+
+font-size:28px;
+
+}
+
+.list-item{
+
+font-size:20px;
+
+font-style:italic;
+
+}
+
+.logo
+
+{
+
+border:3px;
+
+height:30px;
+
+width:30px;
+
+}
+
+.logo-container
+
+{
+
+width:30px;
+
+display:grid;
+
+border:3px;
+
+grid-template-columns: repeat(1, 1fr);
+
+}
+
+.paragraph-about{
+
+text-align:center;
+
+font-size:20px;
+
+color:black;
+
+font-family:monochrome;
+
+margin:20px
+
+}
+
+.paragraph{
+
+text-align:center;
+
+font-size:20px;
+
+color:white;
+
+}
+
+.input-area{
+
+height:40px;
+
+width:50%;
+
+border:solid 2px;
+
+margin:2px;
+
+border-radius:5px;
+
+}
+
+.footer{
+
+height:auto;
+
+background:#1E1C34;
+
+color:white;
+
+text-align:center;
+
+width:100%
+
+}
+
+</style> 
+
+ </head> 
+
+ <body style="margin:0px;"> 
+
+ <nav class="navbar">
+
+  <div class="head-logo"><a href="https://lh3.googleusercontent.com/8Pl0fzRVur3sc2c9VeTRU10R267xY2SyMGcGQa-VO1NX4WkxP3lBTXA3hDODIiOEF4GN6C3Xjd4uIuFz7nxSDfN_pQbp2w-DrCyJW4jWbLbkEV41DGbsR5j-NtKA__UbPrDEDBTSjw=w2400?source=screenshot.guru"> <img class="logo" src="https://lh3.googleusercontent.com/8Pl0fzRVur3sc2c9VeTRU10R267xY2SyMGcGQa-VO1NX4WkxP3lBTXA3hDODIiOEF4GN6C3Xjd4uIuFz7nxSDfN_pQbp2w-DrCyJW4jWbLbkEV41DGbsR5j-NtKA__UbPrDEDBTSjw=w600-h315-p-k" /> </a></div>
+
+     <!-- NAVIGATION MENU -->
+
+     <ul class="nav-links">
+
+       <!-- USING CHECKBOX HACK -->
+
+       <input type="checkbox" id="checkbox_toggle" />
+
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+       <!-- NAVIGATION MENUS -->
+
+       <div class="menu">
+
+         <li><a href="#home">Home</a></li>
+
+         <li><a href="#about-me-section">About</a></li>
+
+         <li><a href="/">Services</a></li>
+
+         <li><a href="/">Pricing</a></li>
+
+         <li><a href="#contact">Contact</a></li>
+
+       </div>
+
+     </ul>
+
+   </nav>
+
+  <div class="section-1">
+
+  <br>
+
+  <br><br><br><br><br><br>
+    
+
+   <div  >
+ <a href="https://lh3.googleusercontent.com/PYo5CInqjjBZgFkISYmyRnKHsq6ByPxaDTIlRhDTcdWO-BmMuREGwRpzTZT-yrTB4OOGvlEwqD1wfgxenQrn9rJZ8kGxnRAcOCEhVWWLuprUq5wzwvo6JHUvzyQEBPeUAPmhlkbHsg=w2400?source=screenshot.guru"> <img class="pp" src="https://lh3.googleusercontent.com/PYo5CInqjjBZgFkISYmyRnKHsq6ByPxaDTIlRhDTcdWO-BmMuREGwRpzTZT-yrTB4OOGvlEwqD1wfgxenQrn9rJZ8kGxnRAcOCEhVWWLuprUq5wzwvo6JHUvzyQEBPeUAPmhlkbHsg=w600-h315-p-k"> </a>
+   
+</div>
+   <br>
+
+    <h4 style="color:black">Hello there!</h4> 
+
+    <p style="font-size:32px;font-weight:bold; color:black">I am <span style="color:#1E96FF">Dilmani Khadka</span>.</p> 
+
+    <h2> Web developer</h2> 
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <h2> <span style="color:green">Learn</span> more.<br>
+
+    <span style="color:green">Earn</span> more.
+
+    </h2>
+
+    <div class="header-logo"> 
+
+   
+
+   <a href="www.facebook.com/dilmanikhadka80"><img class="logo"src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"></a>
+
+    <a href="www.instagram.com/dilmanikhadka80"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"></a>
+
+    <a href="www.twitter.com/dilmanikhadka80"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"></a>
+
+    <a href="www.linkedin.com/dilmanikhadka80"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+
+    </div>
+
+    <br>
+
+    <br><br> <h2 style="text-align:left">My Projects:</h2>
+
+    <div class="column is-multiline" style="padding:0;">
+
+    <div id="slide-index" class="wrapper-slide">
+
+    <div class="list-slide">
+
+    <div class="slide-item">
+
+    <div class="vid poster"> 
+
+    <a href="#" title="First project"> <img class="thumbnail" decoding="async" loading="lazy" src="https://images.app.goo.gl/zrX3NRKPixssdpP47" alt="#"> </a>
+
+    </div>
+
+    </div>
+
+   
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Third project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/web~development-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   
+
+   </div>
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Fourth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/HTML-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   </div>
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Fifth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/python-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   </div>
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Fifth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/python-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   </div>
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Fifth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/python-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   </div>
+
+   
+
+   <div class="slide-item">
+
+   <div class="vid poster"> 
+
+   <a href="#" title="Fifth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/python-certificate.jpg" alt="#"> </a>
+
+   </div>
+
+   </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <a id="#project" href="https://www.facebook.com/dilmanikhadka80"><button class="see-more-button">See more</button></a>
+
+    
+
+   <br>
+
+   <br> 
+
+   <h2 style="text-align:left">My Blogs:</h2>
+
+    <br>
+
+    
+
+    <div class="column is-multiline" style="padding:0;">
+
+    <div id="slide-index" class="wrapper-slide">
+
+    <div class="list-slide">
+
+    <div class="slide-item">
+
+    <div class="vid poster"> 
+
+    <a href="#" title="First project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/SQL-certificate.jpg" alt="#"> </a>
+
+    </div>
+
+    </div>
+
+    
+
+    
+
+    <div class="slide-item">
+
+    <div class="vid poster"> 
+
+    <a href="#" title="Third project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/HTML-certificate.jpg" alt="#"> </a>
+
+    </div>
+
+    
+
+    </div>
+
+    
+
+    <div class="slide-item">
+
+    <div class="vid poster"> 
+
+    <a href="#" title="Fourth project"> <img class="thumbnail" decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/HTML-certificate.jpg" alt="#"> </a>
+
+    </div>
+
+    </div>
+
+    
+
+    <div class="slide-item">
+
+    <div class="vid poster"> 
+
+    <a href="#" title="Fifth project"> <img class="thumbnail"	 decoding="async" loading="lazy" src="file:///storage/emulated/0/DCIM/CamScanner/HTML-certificate.jpg" alt="#"> </a>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <br>
+
+    <a id="#blogs" href="https://www.facebook.com/dilmanikhadka80"><button class="see-more-button">See more</button></a>
+
+    <br>
+
+    <br>
+
+  </div>
+
+  <section class="body"> 
+
+  <br>
+
+   <h1 id="about-me-section" style="text-align:center;font-size:32px">About me</h1> 
+
+   <p class="paragraph-about">Hi guys! I'm dilmani khadka. i'm from dang,lumbini province.A 19 years old college student. Currently doing +2 from science stream.My interests in these tech stuffs grew from the childhood when i used to hack followers on facebook.Being middle-class family, I was not rich enough to get such expensive stuffs.At my 7th standard i got my first phone as a keypad itel phone.From In which Facebook in my life was started. I made my facebook account by myself from a itel buttonkey phone. All of these was a part of fun. and has leading me through the right pathways. i did always love to solve tech problems on such mobile, laptop, pc, etc of anyone whoever asks me though</p> 
+
+   <br>
+
+   <br>
+
+   <h1 id="journey"style=" margin:10px;text-align:left; color:green">My journey:</h1>
+
+   <ul>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">Unforgotable Incident</h2>
+
+       <p class="paragraph">My life was going enough beautiful.Everyone used to love me lol(lots of love).My dad\mom has fulfilled all my desires by providing my needs\choices.When i was in 6th standard...............</li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">High School Graduate</h2>
+
+         <p class="paragraph">My scoring grade in high school was average enough even i was bad student in school. I did good at both studying and enjoying. But people always focuses at our bad side. Many classmates used to praise me that i was good at studying i was always inspired from them nad inspired for forever as well . </p> </li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">Under graduate College:</h2>
+
+        <p class="paragraph">Currently I'm studying in Gorkha International Public Secondary School, Ghorahi-15,dang.I'm from science stream with optional subject as math & Computer.</li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">Web developer:</h2>
+
+        <p class="paragraph">My achievement in these web development was all from my mobile. I had no laptop\pc at that time And all of that i learnt from is online source i never gone institute to learn such thing which are easily available over internet.I have completed around 6 courses of web development through diffrent resources</p></li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">In the programming world:</h2>
+
+        <p class="paragraph">From small age i used to hack followers on facebook.Such activity kept growing and also it leaded me through right pathways for my life.And it is the good career option for me. I was always passionate about coding\programming and hacking.</p></li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">UI/UX designing:</h2>
+
+   <p class="paragraph">I'm also learning Ui\Ux designing .</p></li>
+
+   <br>
+
+   <li class="journey-item"><h2 class="journey-header">Mobile App development:</h2>
+
+   <p class="paragraph">Im learning mobile app development from youtube crash courses .</p></li>
+
+   <br>
+
+   </ul>
+
+   <br> 
+
+   <br>
+
+   <br>
+
+   <details>
+
+   <summary><h2 style="color:#880FC4"><u>My Certificates</u></h2></summary>
+
+   <h2>In programming fields</h2>
+
+   <div class="grid-container">
+
+   <a href="https://lh3.googleusercontent.com/quockW3ngAZGrPY6QPWyNO6xklT7gqVFI56PEXnET3CU4oWb_SCLmqAjwAJ2mpV5lup_ZnJRbvoOxVTkxz-tgPuTSz7IdbAQxQAcnwJGMOufDADPOEB5hujX0JCsaMkd_kHzlM_xGA=w2400?source=screenshot.guru"> <img class="img-item" src="https://lh3.googleusercontent.com/quockW3ngAZGrPY6QPWyNO6xklT7gqVFI56PEXnET3CU4oWb_SCLmqAjwAJ2mpV5lup_ZnJRbvoOxVTkxz-tgPuTSz7IdbAQxQAcnwJGMOufDADPOEB5hujX0JCsaMkd_kHzlM_xGA=w600-h315-p-k" /> </a>
+
+   <a href="https://lh3.googleusercontent.com/CZQmvw1zQ2mDj1lyL4a4WYdj5uE7fQdhjZJ_GKb5C2SIMXTIFE0FWASbVmfDJIFvENUwiqdr5Wu6iu03UgU56Xp_-yYqW_c6W8K8uHpzuWaOjuNwQoMiBlY8nHpVBGbLTutrL3y3PA=w2400?source=screenshot.guru"> <img class="img-item" src="https://lh3.googleusercontent.com/CZQmvw1zQ2mDj1lyL4a4WYdj5uE7fQdhjZJ_GKb5C2SIMXTIFE0FWASbVmfDJIFvENUwiqdr5Wu6iu03UgU56Xp_-yYqW_c6W8K8uHpzuWaOjuNwQoMiBlY8nHpVBGbLTutrL3y3PA=w600-h315-p-k" /> </a>
+
+ <a href="https://lh3.googleusercontent.com/4jbaOJGDnynR8AA2RT2-qZ5x2HtQNg1MJcv2q9iGvaSUuYqMOcaWNtHXZMQMi4a4PGzyMAn3XcgvJX3n6TZPU4HCixJ0HhYkUwtC-B47hLoqe9rS-WbIQuZE0KWB4n0fOFFwL2Kfdg=w2400?source=screenshot.guru"> <img class="img-item" src="https://lh3.googleusercontent.com/4jbaOJGDnynR8AA2RT2-qZ5x2HtQNg1MJcv2q9iGvaSUuYqMOcaWNtHXZMQMi4a4PGzyMAn3XcgvJX3n6TZPU4HCixJ0HhYkUwtC-B47hLoqe9rS-WbIQuZE0KWB4n0fOFFwL2Kfdg=w600-h315-p-k" /> </a>
+     
+   <a href="https://lh3.googleusercontent.com/rqsY73gGYoX7NvYHRDiqDCJDTQM_z_-B7oW8mj4XYrlLQEYWO9nSq7AJwCwiTpVyCxiKk1MESzvwPmEjwCAFl4v5xdPm8K7wz09sCvc7JMmmTNxd6bNRHm07wEHb2fkVc6BeqXOC6A=w2400?source=screenshot.guru"> <img class="img-item" src="https://lh3.googleusercontent.com/rqsY73gGYoX7NvYHRDiqDCJDTQM_z_-B7oW8mj4XYrlLQEYWO9nSq7AJwCwiTpVyCxiKk1MESzvwPmEjwCAFl4v5xdPm8K7wz09sCvc7JMmmTNxd6bNRHm07wEHb2fkVc6BeqXOC6A=w600-h315-p-k" /> </a>
+
+   <a href="https://lh3.googleusercontent.com/LHzNoBR9i-QavZVUVdZj04g3p7uLnfUtf5OlFIsvu0q07W65ZxqKwz3ojV9i-kQM8LQSnwGDwA8hCx-spPiwbksFCIIzGr6XOxgJJwqJO045lZfxuB1K_lHLg-uB0ONVlcYCSP2EOA=w2400?source=screenshot.guru"> <img class="img-item" src="https://lh3.googleusercontent.com/LHzNoBR9i-QavZVUVdZj04g3p7uLnfUtf5OlFIsvu0q07W65ZxqKwz3ojV9i-kQM8LQSnwGDwA8hCx-spPiwbksFCIIzGr6XOxgJJwqJO045lZfxuB1K_lHLg-uB0ONVlcYCSP2EOA=w600-h315-p-k" /> </a>
+   <a href="https://lh3.googleusercontent.com/oebDVkD9nzv8EsTWxapIsR4MUR284VADdorR3A-DwS55j67l8lraHZkLV7qXBOmcfYPMMtxTwvgRRFHmzL6DNer1BJC7kV-fQc4I8p5XWiixysEdQr-Yd_OAyEJ2sQMY7-OkdApEVw=w2400?source=screenshot.guru"> <img class="img-item"  src="https://lh3.googleusercontent.com/oebDVkD9nzv8EsTWxapIsR4MUR284VADdorR3A-DwS55j67l8lraHZkLV7qXBOmcfYPMMtxTwvgRRFHmzL6DNer1BJC7kV-fQc4I8p5XWiixysEdQr-Yd_OAyEJ2sQMY7-OkdApEVw=w600-h315-p-k" /> </a>
+
+   </div>
+
+   </details>
+
+   <br>
+
+   <ul>
+
+   <div style="text-align:left"><h2>My skills:</h2>
+
+   <li class="list-item">Tech problem solving</li>
+
+   <li class="list-item">Electrician</li>
+
+   <li class="list-item">Mathematics</li>
+
+   <li class="list-item">Teaching</li>
+
+   <li class="list-item">Blogging</li>
+
+   <li class="list-item">Freelancing</li>
+
+   <li class="list-item">Mobile App development</li>
+
+   <li class="list-item">Web development</li>
+
+   <li class="list-item">Programming</li>
+
+   <li class="list-item">Software cracking</li>
+
+   </div>
+
+   </ul>
+
+   
+
+   <br> 
+
+  </section>
+
+  <footer id="contact-section"class="footer"style="text-align:left" > 
+
+  <br> 
+
+  <br> 
+
+  <br> 
+
+  <div style="margin:10px">
+
+  <br> 
+
+  <h2 id="contact"><u>Contacts</u></h2> 
+
+  <h3>Name</h3> 
+
+  <h5>Dilmani Khadka</h5> 
+
+  <h3>Email</h3> 
+
+  <h4>dilmanikhadka80@gmail.com</h4> 
+
+  <h3>Address</h3> 
+
+  <h4>Ghorahi-15,dang,lumbini province nepal</h4> 
+
+  <h1 style="text-align:center"><u>Get in touch</u></h1> 
+
+ <br>
+
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form
+
+  action="https://formspree.io/f/mpznlwzv"
+
+  method="POST"
+
+>
+<label>
+  <input class="input-area" type="text" placeholder="First name"> 
+
+  <input class="input-area" type="text" placeholder="Middle name"> 
+
+  <input class="input-area" type="text" placeholder="Last name">
+  
+  </label>
+  
+  <label>
+
+
+    <input class="input-area" type="email" name="email" placeholder="Email address">
+
+  </label>
+
+  <label>
+
+
+    <textarea class="input-area" style="height:120px; width:80%" cols="10"rows="30" name="message"placeholder="Type message......"></textarea>
+
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button class="goto-button" type="submit">Send</button>
+
+</form>
+
+  <br> 
+
+  <h2 id="social">Social media:</h2>
+
+  <div class="logo-container"> 
+    <a href="#"><img class="logo"src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png">Facebook</a>
+
+  <a href="www.instagram.com/dilmanikhadka80"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png">Instagram</a>
+
+  <a href="www.twitter.com/dilmanikhadka80"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png">Twitter</a>
+
+  <a href="www.linkedin.com/dilmanikhadka80"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png">Linkedin</a>
+
+  <br>
+
+  <p></p>
+
+  </div>
+
+  </div>
+
+  <p style=" text-align:center">
+
+  <a href="#about-me-section">About me</a> | 
+
+  <a href="#">DMCA Disclaimer</a> | 
+
+  <a href="#">Privacy policy</a>
+
+  <br>
+
+  <a href="#social">Socials</a> | 
+
+  <a href="#journey">Careers</a> | 
+
+  <a href="#contact">Contacts</a>
+
+  </p>
+
+  <br>
+
+  <p style="margin:0px;
+
+  text-align:center;
+
+  padding:15px;
+
+  ">#SimplePortfolioWebsite✓<br><br>
+
+  ©Copyrights 2022 | All rights reserved.</p> 
+
+  </footer>
+
+ </body>
+
+</html>
